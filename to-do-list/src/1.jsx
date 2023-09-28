@@ -75,7 +75,7 @@ let Elements = () => {
       </div>
 
       <div className="activity-log">
-        <h2 className="h">Activity Log</h2>
+        <h2 className="h">Completed-List</h2>
         <div className="completed-todos">
           {completedTodos.map((obj) => (
             <div key={obj.id} className="completed-todo">
